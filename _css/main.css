@@ -1,0 +1,390 @@
+@charset "utf-8";
+
+
+html, body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	background-image: url(background_sample.png);
+	background-repeat: repeat-x;
+	font-family: Segoe UI Light', 'Segoe UI, Tahoma, Arial, Verdana, sans-serif;
+	margin: 0px;
+	width: auto;
+}
+
+a:link {
+	color: #FFF;
+	font-style: normal;
+	text-decoration: none;
+}
+a:visited {
+	background-color:#65B819;
+	color: #CCC;
+	
+}
+a:hover {
+	background-color:#CCCCCC;
+}
+a:active {
+	background-color:#65B819;
+}
+
+
+#wrapper {
+	background-repeat: repeat-x;
+	height: 1060px;
+	width: 920px;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	position: relative;
+	background-color: #FFF;
+	float: left;
+}
+#slider {
+	float: left;
+	height: 600px;
+	width: 150px;
+	margin-left: 25px;
+}
+#container {
+	background-color: #000;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	width: 1105px;
+}
+
+#header {
+	height: 180px;
+	margin-right: auto;
+	margin-bottom: 80px;
+	margin-left: auto;
+	background-image: url(header.png);
+	margin-top: 0px;
+	position: relative;
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+
+	
+//	min-height: 100%;
+//height: auto !important;
+//height: 100%;
+	width: auto;
+	clear: both;
+	
+	
+}
+#Buttons {
+	width: 120px;
+	height: 50px;
+	top: 4px;
+	position: absolute;
+	left: 23px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#description {
+	/* [disabled]background-color: #096; */
+	height: 100px;
+	width: 660px;
+	margin-right: 140px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	clear: both;
+	position: relative;
+}
+
+
+#right_banner {
+	background-color: #CCC;
+	height: 260px;
+	width: 100px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#search {
+	height: 50px;
+	width: 150px;
+	margin-right: 20px;
+	float: right;
+	margin-top: 20px;
+	background-color: #CCC;
+}
+
+#sortingoptions {
+	height: 50px;
+	float: left;
+	margin-top: 20px;
+	background-color: #CCC;
+	margin-right: 0px;
+	width: 550px;
+	clear: none;
+	margin-left: 20px;
+}
+
+
+#maincontent {
+	clear: both;
+	height: auto;
+	width: 880px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	float: right;
+	border: thin groove #FFF;
+	position: relative;
+}
+#fb {
+	background-image: url(socialbar/fb.PNG);
+	height: 140px;
+	width: 140px;
+	margin-top: 10px;
+	background-color: #0182C4;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: right;
+}
+
+#tw {
+	background-image: url(socialbar/twitter.png);
+	height: 140px;
+	width: 140px;
+	margin-top: 10px;
+	float: right;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #62C8F8;
+}
+
+#gplus{
+	background-image: url(socialbar/g.png);
+	height: 140px;
+	width: 140px;
+	margin-top: 10px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #D64137;
+	float: right;
+	
+	}
+
+#add{
+    background-image: url(socialbar/add.png);
+    height: 140px;
+    width: 140px;
+    background-color: #64b818;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 10px;
+}
+
+.Add_text {
+	font-size: 18px;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 100px;
+	height: 30px;
+	width: 80px;
+	float: left;
+}
+
+#categories {
+	background-color: #FF894D;
+	height: 150px;
+	width: 730px;
+	float: left;
+	margin-right: 0px;
+	margin-left: 50px;
+	font-size: 10px;
+	color: #FFF;
+	margin-bottom: 20px;
+}
+
+#categories table{
+	background-color: #FF894D;
+	position: relative;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-bottom: 30px;
+	height: 100px;
+	color: #FFF;
+	
+	}
+	
+	#categories table strong{
+	font-size: 22px;
+	color: #CCC;
+	font-family: Adobe Garamond Pro;
+		
+		}
+		
+		
+		
+#tag_btn{
+	background-color: #CCC;
+	height: 30px;
+	width: 200px;
+}
+
+#input_banner{
+	width: 750px;
+	height: 90px;
+	float: right;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	}
+
+#footer {
+	clear: both;
+	height: 180px;
+	width: auto;
+	position: relative;
+	color: white;
+	background-image: url(footer.png);
+	background-repeat: repeat-x;
+	background-color: #FF8140;
+	background-position: bottom;
+}
+
+#submit_site{
+	color: #FFF;
+	width: 80px;
+	height: 55px;
+	font-size: 18px;
+}
+	
+	h1{
+	font-size: 33px;
+	text-align: center;}
+
+
+#form {
+	height: 800px;
+	width: auto;
+	color: #FF8140;
+	font-size: 20px;
+	margin-right: auto;
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+
+#form form textarea{
+	background-color: #FFFFFF;
+	border: thin inset #CCC;
+	margin-left: 20px;
+	font-size: 24px;
+	width: 350px;
+	height: 80px;
+	}
+
+.buttonBox {
+	background-color: #646464;
+	height: 100px;
+	width: 100px;
+	color: #FFF;
+	margin: 0px;
+}
+
+	
+	#form form textarea:focus{
+			background-color:#CCC;
+
+		}
+.input_box{
+	height: 40px;
+	width: 350px;
+	background-color: #FFFFFF;
+	border: thin inset #CCC;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.input_box:focus{
+	background-color:#CCC;
+	}
+#title_box{
+	background-color: ;
+	background-color: #65B819;
+	}
+
+#link_box{
+	background-color: #0182C4;
+	}
+	
+	#type_box{
+	background-color: ;
+	background-color: #62C8F8;
+	}
+	
+	#tag_box{
+	background-color: ;
+	background-color: #036;
+	font-size: 18px;
+	}
+	
+		#description_box{
+	background-color: ;
+	background-color: #D64137;
+		}
+
+
+#submit_btn{
+	font-family: Segoe UI Light', 'Segoe UI, Tahoma, Arial, Verdana, sans-serif;
+	width:100px;
+	height:90px;
+	margin-right: auto;
+	margin-left: 350px;
+	/* [disabled]margin-top: 20px; */
+	font-size: 18px;
+	color: #FFF;
+	background-image: url(add.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #04AEDA;
+	border: medium outset #04AEDA;
+	}
+	
+	#submit_btn:focus{
+	background-color: #FFFFFF;
+}
+	
+	.label_text{
+	font-size: 16px;
+	height: 20px;
+	width: 100px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	font-family: Segoe UI Light ;
+		}
+		
+	
+#QuoteBanner{
+	background-color: #F69;
+	height: 90px;
+	width: 730px;
+	margin-top: 0px;
+	float: left;
+	margin-right: 0px;
+	margin-left: 50px;
+	background-image: url(categories.png);
+	
+	}

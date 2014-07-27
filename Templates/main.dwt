@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script   src="../main.js"></script>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Za2na</title>
+<!-- TemplateEndEditable -->
+<link href="file:///E|/Learn/My Projects/Za2na Website - Copy/_css/main.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body bgcolor="#FFFFFF">
+<div id="header">
+      <!-- Start of buttonsbar Tag-->
+    
+</div>
+    <!-- Start of Header Tag-->
+
+    
+<div id="container">
+
+    <div id="wrapper">
+      <!-- End of Header Tag-->
+      <div id="right_banner"></div>
+      <div id="input_banner">
+        <div id="search">
+        <form>
+        <input type="search" value="search" >
+        
+        </form>
+        </div>
+        <div id="sortingoptions"></div>
+      </div>
+      <!-- TemplateBeginEditable name="Tags" -->
+      <div id="categories"></div>
+      <!-- TemplateEndEditable -->
+      <div id="maincontent">
+        <div><!-- TemplateBeginEditable name="content" -->
+          <p>Mr. and Mrs. Dursley, of number four, Privet Drive,  were proud to say that they were perfectly normal, thank you very much. They  were the last people you&rsquo;d expect to be in­volved in anything strange or  mysterious, because they just didn&rsquo;t hold with such nonsense.<br>
+            Mr. Dursley was the director of a firm called Grunnings, which made  drills. He was a big, beefy man with hardly any neck, al­though he did have a  very large mustache. Mrs. Dursley was thin and blonde and had nearly twice the  usual amount of neck, which came in very useful as she spent so much of her  time craning over garden fences, spying on the neighbors. The Dursleys had a  small son called Dudley and in their opinion  there was no finer boy any­where.<br>
+            The Dursleys had everything they wanted, but they also had a secret, and  their greatest fear was that somebody would discover it. They didn&rsquo;t think they  could bear it if anyone found out about the Potters. Mrs. Potter was Mrs.  Dursley&rsquo;s sister, but they hadn&rsquo;t met for several years; in fact, Mrs. Dursley  pretended she didn&rsquo;t have a sister, because her sister and her good-for-nothing  husband were as unDursleyish as it was possible to be. The Dursleys shuddered  to think what the neighbors would say if the Potters arrived in the street. The  Dursleys knew that the Potters had a small son, too, but they had never even  seen him. This boy was another good reason for keeping the Potters away; they  didn&rsquo;t want Dudley mixing with a child like  that.<br>
+            When Mr. and Mrs. Dursley woke up on the dull, gray Tuesday our story  starts, there was nothing about the cloudy sky outside to suggest that strange  and mysterious things would soon be happen­ing all over the country. Mr.  Dursley hummed as he picked out his most boring tie for work, and Mrs. Dursley  gossiped away happily as she wrestled a screaming Dudley  into his high chair.</p>
+        <!-- TemplateEndEditable --></div>
+      </div>
+      </div>
+<div id="slider"><!-- TemplateBeginEditable name="AddorHome" -->
+  <div id="add"  onMouseOver="Activate('add' , 'hover')">
+    <div class="Add_text">Add a site</div>
+  </div>
+<!-- TemplateEndEditable -->
+  <div id="fb"   onMouseOver="Activate('fb' , 'hover')" >
+   <div class="Add_text">
+   
+   <a rel="nofollow" href="http://www.facebook.com/share.php?u=<;url>" onclick="return fbs_click()" target="_blank">Share</a></div>
+             </div>
+             
+                <div id="gplus"   onMouseOver="Activate('gplus' , 'hover')">
+        <div class="Add_text">+1</div>
+
+    </div>
+
+      <div id="tw"   onMouseOver="Activate('tw', 'hover')">
+    <div class="Add_text" >
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="I really loved this site , plz check it NOW !" data-count="none" data-hashtags="Za2naWebsite">Tweet</a>
+    
+    </div>
+    </div>
+    
+ 
+    
+    </div>
+
+<!-- End of Container Tag-->
+</div>
+
+
+<div id="footer"> Made &amp; Design by <a href="file:///C|/Users/Innovator/Documents/Za2na Website/a7medkamal.wordpress.com">Ahmed Kamal</a> - Copyright 2012 Za2na: a directory of useful page sites and apps - <a href="http://designerthemes.com/" title="Premium WordPress Themes"></a></div>
+
+</body>
+</html>
