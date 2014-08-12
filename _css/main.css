@@ -13,92 +13,163 @@ body{
 	border-bottom: 3px solid black;
 }
 
-#header > #logo{
+#logo{
 	font-family: tahoma;
 	font-size: 40px;
 	font-weight: bold;
 	color: black;
 	text-decoration: none;
-	float: left;
-	margin-left: 100px;
-	margin-top: 10px;
-}
-
-#header > #socialicons{
-	list-style-type: none;
-	float: right;
-	margin-top: 20px;
-	margin-right: 100px;
-}
-
-#header > #socialicons > li{
-	float: left;
-	padding-left: 10px;
+	display: inline-block;
+	margin-left: 42%;
+	margin-top: 8px;
 }
 
 #wrapper{
-	width: 85%;
+	width: 80%;
 	margin: 0px auto;
 	min-width: 600px;
-	min-height: 600px;
-	border-left: 1px solid #cccccc;
-	border-right: 1px solid #cccccc;
+	min-height: 700px;
+	padding-bottom: 20px;
 }
 
-#wrapper > #search{
-	margin-top: 20px;
-	margin-left: 15%;
+#searchbox{
+	width: 820px;
+	margin: 30px auto;
 }
 
-#wrapper > #search > input{
-	width: 400px;
+#search{
+	width: 650px;
+	padding: 15px;
+	float: left;
+	background-color: white;
+	border: 1px solid #888888;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #ccc9c9;
+}
+
+#search  p{
+	display: inline;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#search input{
+	width: 350px;
 	height: 32px;
+	margin-left: 10px;
 	font-family: arial;
 	font-size: 20px;
-	padding-left: 10px;
-	margin-bottom: 20px;
-	margin-top: 6px;
+	padding-left: 5px;
 	border: 1px solid gray;
 	border-radius: 5px;
 	box-shadow: 1px 1px 1px #ccc9c9;
 }
 
-#wrapper > #search > a{
+#search  a{
 	font-family: tahoma;
 	font-size: 20px;
 	font-weight: bold;
 	color: #222222;
 	text-decoration: none;
-	margin-left: 10px;
-	margin-top: 2px;
 	padding: 4px;
+	margin-left: 10px;
 	border: 1px solid gray;
 	background-color: white;
 	border-radius: 5px;
 	box-shadow: 1px 1px 1px #ccc9c9;
 }
 
-#wrapper > #subject{
+#addsite{
+	width: 80px;
+	height: 65px;
+	margin-left: 30px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid #888888;
+	border-radius: 3px;
+	display: inline-block;
+	box-shadow: 1px 1px 1px #ccc9c9;
+}
+
+#addsite  p{
+	margin-top: 5px;
+	font-family: tahoma;
+}
+
+/* ======== main wrapper ====== */
+
+#subjectlist{
+	list-style-type: none;
+	margin-top: 60px;
+}
+
+#subjectbox{
+	width: 160px;
+	height: 160px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	border: 1px solid gray;
+	background-color: white;
+	border-radius: 2px;
+	color: #222222;
+	text-align: center;
+	box-shadow: 1px 1px 1px #ccc9c9;
+}
+
+#subtitle{
+	font-family: tahoma;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 25px;
+	color: #556B2F;
+}
+
+#subnum{
+	margin-top: 35px;
+}
+
+#share{
+	display: block;
+	width: 200px;
+	height: 64px;
+	clear: both;
+	margin: 0 auto;
+	padding-top: 80px; 
+}
+
+#share a:nth-child(2){
+	margin-left: 30px;
+}
+
+/*=========== end main wrapper ========
+			  subject start
+*/
+
+#subject{
 	width: 780px;
 	border-bottom: 1px solid gray;
 	background-color: white;
 	border-radius: 2px;
 	padding: 10px;
 	color: #222222;
+	margin-top: 20px;
 }
 
-#wrapper > #res{
+#res{
 	clear: both;
 	width: 800px;
-	height: 150px;
+	height: auto;
 	margin-top: 20px;
+	padding-bottom: 65px;
 	background-color: white;
-	border: 1px solid #;
 	border-radius: 2px;
 	box-shadow: 1px 1px 3px #ccc9c9;
 }
 
-#wrapper > #res > #title{
+#title{
 	text-decoration: none;
 	font-family: tahoma;
 	font-size: 20px;
@@ -108,103 +179,56 @@ body{
 	padding: 10px;
 }
 
-#wrapper > #res > p{
+#res  p{
 	clear: both;
 	padding-left: 10px;
 	font-family: tahoma;
 	font-size: 15px;
 }
 
-#wrapper > #res > #up{
-	font-family: tahoma;
-	font-size: 18px;
-	font-weight: bold;
-	color: green;
-	text-decoration: none;
+#up{
 	float: left;
-	padding: 3px;
 	margin-left: 20px;
-	margin-top: 35px;
-	border: 1px solid gray;
-	border-radius: 2px;
-	box-shadow: 0px 1px 1px #cccccc;
+	margin-top: 15px;
 }
 
-#wrapper > #res > #down{
-	font-family: tahoma;
-	font-size: 18px;
-	font-weight: bold;
-	color: brown;
-	text-decoration: none;
+#down{
 	float: left;
-	padding: 3px;
-	margin-left: 10px;
-	margin-top: 35px;
-	border: 1px solid gray;
-	border-radius: 2px;
-	box-shadow: 0px 1px 1px #cccccc;
+	margin-left: -32px;
+	margin-top: 30px;
 }
 
-#wrapper > #res > #fbshare {
-	margin-left: 450px;
-	margin-top: 28px;
-	float: left;
-	display: block;
-	width: 90px;
-	height: 33px;
-	background-color: #3B5998;
-	text-decoration: none;
-	border: 1px solid black;
-	border-radius: 3px;
-}
-
-#wrapper > #res > #fbshare > p{
-	font-family: tahoma;
-	font-size: 15px;
-	font-weight: bold;
+#fbshare {
+	margin-top: 24px;
+	margin-right: 10px;
 	float: right;
-	color: black;
-	margin-top: 8px;
-	margin-right: 8px;
-}
-
-#wrapper > #res > #tweet {
-	margin-left: 680px;
-	margin-top: 28px;
 	display: block;
-	width: 90px;
-	height: 33px;
-	background-color: #4099FF;
 	text-decoration: none;
-	border: 1px solid black;
-	border-radius: 3px;
 }
 
-#wrapper > #res > #tweet > p{
-	font-family: tahoma;
-	font-size: 15px;
-	font-weight: bold;
+#tweet {
+	margin-top: 24px;
+	margin-right: 17px;
 	float: right;
-	color: black;
-	margin-top: 8px;
-	margin-right: 8px;
+	display: block;
+	text-decoration: none;
 }
 
 #rightsection{
 	position: absolute;
-	top: 143px;
+	top: 190px;
 	margin-left: 820px;
 	min-height: 600px;
 	border-left: 1px solid gray;
 }
 
-#rightsection > h2{
+#rightsection  h2{
 	margin-left: 8px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid gray;
 }
 
-#rightsection > a{
+#rightsection  a{
 	margin-left: 10px;
 	margin-bottom: 5px;
 	font-family: tahoma;
@@ -223,13 +247,12 @@ body{
 	height: 70px;
 	background-color: #e27004;
 	border-top: 3px solid black;
-	margin-top: 20px;
 }
 
 #footer > #footernav{
 	list-style-type: none;
 	float: left;
-	margin-left: 90px;
+	margin-left: 9.5%;
 	margin-top: 23px;
 }
 
@@ -251,7 +274,7 @@ body{
 	list-style-type: none;
 	float: right;
 	margin-top: 18px;
-	margin-right: 100px;
+	margin-right: 10%;
 }
 
 #footer > #footersocialicons > li{
