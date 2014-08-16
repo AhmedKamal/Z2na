@@ -1,186 +1,26 @@
-<!--@{
-    var title ="";
-    var link = "";
-    var temp = "";
-    var tags = "";
-    var type = "";
-    var description = "";
+<link href="_css/add.css" rel="stylesheet" type="text/css">
+<script src="main.js"></script>
 
-    if(IsPost){
-        title = Request.Form["title"];
-        link = Request.Form["link"];
-        temp = Request.Form["type"];
-        tags = Request.Form["tag"];
-        description= Request.Form["description"];
+<h3>Add a resource</h3>
 
-      if(temp == "Web App") {type = "0";}
-      else if (temp == "Blog") {type = "1";}
-      else{}
+<label for="addname">Name</label>
+<input type="text" id="addname" maxlength="150">
+</br>
+<label for="addlink">Link</label>
+<input type="text" id="addlink" maxlength="150">
+</br>
+<label for="adddes" id="adddesl">Description</label>
+<textarea id="adddes" maxlength="300"></textarea>
 
-    var db = Database.Open("Add");    
-    var insertCommand = "INSERT INTO AddApp (Title, Link, Type , Tags , Description) VALUES(@0, @1, @2 , @3 , @4 )";
-    db.Execute(insertCommand,title,link, type , tags , description);
+</br>
+<label for="selsub">Subject</label>
+<select id="selsub">
+  <option value="webdesign">Web Design</option>
+  <option value="c++">C++</option>
+  <option value="webdev">Web Dev</option>
+  <option value="english">English</option>
+</select>
+</br>
+<button id="subbtn" onclick="submit()">Submit</button>
 
-    }
-    
-    
-
-
-
-
-}-->
-
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script   src="main.js"></script>
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Za2na</title>
-<style>
-#add{
-	background-image: url(_css/Social%20Bar/home.png);
-	height: 140px;
-	width: 140px;
-	background-color: #64b818;
-	background-position: center center;
-	background-repeat: no-repeat;
-	float: right;
-	margin-top: 10px;
-	}
-</style>
-<!-- InstanceEndEditable -->
-<link href="file:///C|/Users/Innovator/Documents/Za2na Website/_css/main.css" rel="stylesheet" type="text/css">
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
-</head>
-
-<body bgcolor="#FFFFFF">
-<div id="header">
-      <!-- Start of buttonsbar Tag-->
-    
-</div>
-    <!-- Start of Header Tag-->
-
-    
-<div id="container">
-
-    <div id="wrapper">
-      <!-- End of Header Tag-->
-      <div id="right_banner"></div>
-      <div id="input_banner">
-        <div id="search">
-        <form>
-        <input type="search" value="search" >
-        
-        </form>
-        </div>
-        <div id="sortingoptions"></div>
-      </div>
-      <!-- InstanceBeginEditable name="Tags" -->
-      <div id="QuoteBanner"></div>
-      <!-- InstanceEndEditable -->
-      <div id="maincontent">
-        <div><!-- InstanceBeginEditable name="content" -->
-        <div id="form">
-         <form method="post">
-         <h1>Help Others & add Your Favourite Apps Now !</h1>
-        <table width="786" border="0" cellpadding="10" cellspacing="1">
-           <tr>
-             <th width="101" scope="row"><div class="buttonBox" id="title_box">
-               <div class="label_text"  id="title_inputbox">Title</div>
-             </div></th>
-             <td width="642"> 
-             <!-- Title -->
-             <input type="text" name="title" value="@Request.Form["title"]" class="input_box"></input></td>
-           </tr>
-           <tr>
-             <th scope="row"><div class="buttonBox"  id="link_box">
-               <div  class="label_text">Link</div>
-             </div></th>
-             <td>
-             <!-- link -->
-             <input type="url" name="link" value="@Request.Form["link"]" class="input_box"></input></td>
-           </tr>
-           <tr>
-             <th scope="row"><div class="buttonBox" id="description_box">   <div  class="label_text">Description</div></div></th>
-             <td>  
-             <!-- description -->
-             <textarea name="description"   dir="ltr"  ></textarea>
-             </td>
-           </tr>
-           <tr>
-             <th scope="row"><div class="buttonBox" id="type_box">   <div  class="label_text">Type</div></div></th>
-             <td>
-             <!-- type -->
-             <input type="radio" name="type" value="Web App">Web App</input>
-         <input type="radio" name="type" value="Blog">Blog</input></td>
-           </tr>
-           <tr>
-             <th scope="row"><div class="buttonBox" id="tag_box">   <div  class="label_text">Tags</div></div></th>
-             <td><p>
-               <input type="checkbox" name="tag" value="Technologies"> 
-               Microsoft Technologies</input>
-               <input type="checkbox" name="tag" value="Open Source"> 
-               Open Source Technologies</input>
-               <input type="checkbox" name="tag" value="Programming">
-               Desktop Programming </input>
-               <input type="checkbox" name="tag" value="Web Development"> 
-               Web Development
-               </input>
-               <input type="checkbox" name="tag" value="Web Design"> 
-               Web Design</input>
-                 <input type="checkbox" name="tag" value="Mobile Development">
-                 Mobile Development</input>
-                <input type="checkbox" name="tag" value="Entrepenurship"> 
-                Entrepenurship</p>               </input></td>
-           </tr>
-           <tr>
-             <th height="104" colspan="2" scope="row">
-             <!-- Submit -->
-             <input name="Submit" type="submit" value="" id="submit_btn" />
-
-</th>
-           </tr>
-        </table>
-                 </form>
-          </div>
-        <!-- InstanceEndEditable --></div>
-      </div>
-      </div>
-<div id="slider"><!-- InstanceBeginEditable name="AddorHome" -->
-  <div id="add" onClick="Activate('add' , 'click')" onMouseOver="Activate('add' , 'hover')">
-    <div class="Add_text"><a href="Index.html" title="Home Page">Home</a></div>
-  </div>
-<!-- InstanceEndEditable -->
-  <div id="fb"   onMouseOver="Activate('fb' , 'hover')" >
-   <div class="Add_text">
-   
-   <a rel="nofollow" href="http://www.facebook.com/share.php?u=<;url>" onclick="return fbs_click()" target="_blank">Share</a></div>
-             </div>
-             
-                <div id="gplus"   onMouseOver="Activate('gplus' , 'hover')">
-        <div class="Add_text">+1</div>
-
-    </div>
-
-      <div id="tw"   onMouseOver="Activate('tw', 'hover')">
-    <div class="Add_text" >
-    <a href="https://twitter.com/share" class="twitter-share-button" data-text="I really loved this site , plz check it NOW !" data-count="none" data-hashtags="Za2naWebsite">Tweet</a>
-    
-    </div>
-    </div>
-    
- 
-    
-    </div>
-
-<!-- End of Container Tag-->
-</div>
-
-
-<div id="footer"> Made &amp; Design by <a href="file:///C|/Users/Innovator/Documents/Za2na Website/a7medkamal.wordpress.com">Ahmed Kamal</a> - Copyright 2012 Za2na: a directory of useful page sites and apps - <a href="http://designerthemes.com/" title="Premium WordPress Themes"></a></div>
-
-</body>
-<!-- InstanceEnd --></html>
+<span id="status"></span>

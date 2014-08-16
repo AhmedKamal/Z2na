@@ -4,13 +4,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Za2na</title>
     <link href="_css/main.css" rel="stylesheet" type="text/css">
-    <!--<script src="main.js"></script>-->
+    <script src="main.js"></script>
 </head>
 
 <body>
 <div id="header">
     <a id="logo" href="index.html">Zatona</a>
 </div>
+
+<button id="closeadd" onclick="closeadd()">X</button>
+<div id="add"></div>
 
 <div id="wrapper">
 	
@@ -21,10 +24,10 @@
 			<a href="#">Search</a>
 		</div>
 		
-		<div id="addsite">
+		<a href="#" onclick="add()"><div id="addsite">
 			<h1>+</h1>
 			<p>Add a Site</p>
-		</div>
+		</div></a>
 	</div>
 	
 	<ul id="subjectlist">
@@ -68,7 +71,6 @@
 			<h2 id="subnum">40</h2>
 		</li></a>
 	</ul>
-	
 	
 	<div id="share">
 		<a href="#"><img src="images/socialicons/facebookshare.png"/></a>
